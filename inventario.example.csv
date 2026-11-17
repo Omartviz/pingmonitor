@@ -1,0 +1,20 @@
+IP,Nombre,Categoria,Switch,Puerto,Ubicacion,Notas,Silenciado,Hostname,GrupoCredencial,MAC
+127.0.0.1,PC Consultorio 01,PC,SW-01,Fa0/1,Planta baja,,0,PC-01,1,00:00:5E:00:53:01
+127.0.0.2,PC Consultorio 02,PC,SW-01,Fa0/2,Planta baja,,0,PC-02,1,00:00:5E:00:53:02
+127.0.0.3,PC Consultorio 03,PC,SW-01,Fa0/3,Planta baja,,0,PC-03,1,00:00:5E:00:53:03
+127.0.0.4,PC Consultorio 04,PC,SW-01,Fa0/4,Planta baja,,0,PC-04,1,00:00:5E:00:53:04
+127.0.0.5,PC Consultorio 05,PC,SW-01,Fa0/5,Planta baja,,0,PC-05,1,00:00:5E:00:53:05
+127.0.0.6,PC Consultorio 06,PC,SW-01,Fa0/6,Planta baja,,0,PC-06,1,00:00:5E:00:53:06
+127.0.0.7,PC Consultorio 07,PC,SW-01,Fa0/7,Planta baja,,0,PC-07,1,00:00:5E:00:53:07
+127.0.0.8,PC Consultorio 08,PC,SW-01,Fa0/8,Planta baja,,0,PC-08,1,00:00:5E:00:53:08
+192.0.2.21,PC Recepcion,PC,SW-02,Gi1/0/3,Planta alta,,0,PC-21,2,00:00:5E:00:53:15
+127.0.0.10,Impresora 1,IMP,SW-01,Fa0/10,Planta baja,,0,,,
+127.0.0.11,Impresora 2,IMP,SW-01,Fa0/11,Planta alta,,0,,,
+192.0.2.30,Impresora 3,IMP,SW-02,Gi1/0/8,Planta alta,Ejemplo de equipo caido,0,,,
+127.0.0.12,Telefono ext. 112,TEL,SW-02,Gi1/0/12,Planta alta,,0,,,
+127.0.0.13,Telefono ext. 113,TEL,SW-02,Gi1/0/13,Planta alta,,0,,,
+127.0.0.14,Telefono ext. 114,TEL,SW-02,Gi1/0/14,Planta alta,,0,,,
+127.0.0.15,Telefono ext. 115,TEL,SW-02,Gi1/0/15,Planta alta,,0,,,
+192.0.2.40,Telefono ext. 120,TEL,SW-02,Gi1/0/20,Planta alta,Silenciado: en reparacion,1,,,
+127.0.0.16,Access Point 1,Network,SW-01,Fa0/16,Planta baja,,0,,,
+127.0.0.17,Servidor NAS,Servers,SW-01,Fa0/17,Site,,0,,,

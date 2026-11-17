@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build artifacts (PyInstaller)
+build/
+dist/
+*.spec.bak
+
+# Offline wheel cache (used for air-gapped installs, never committed)
+wheelhouse/
+
+# Runtime data — real infrastructure, credentials and history. NEVER commit.
+inventario.csv
+historial.db
+credenciales.dat
+telegram_config.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
