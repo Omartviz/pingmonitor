@@ -11,7 +11,7 @@ Built and used in production by a single IT administrator to watch a fleet of **
 
 ## Why I built it
 
-As the only IT person on site, I needed to know *which* device went down *before* users called — and to tell a real outage apart from a single dropped packet. Generic ping tools either needed admin rights, flooded me with false alarms, or kept no history. PingMonitor solves those three problems in one small executable.
+As the only IT person on site, I needed to know *which* device went down *before* users called — and to tell a real outage apart from a single dropped packet. Generic ping tools either needed admin rights, flooded me with false alarms, or kept no history, while full monitoring suites such as PRTG, SolarWinds or Nagios were far more than a single-site team needed. PingMonitor solves those three problems in one small executable, tailored to my specific needs.
 
 ---
 
