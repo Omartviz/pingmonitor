@@ -11,8 +11,7 @@ Built and used in production by a single IT administrator to watch a fleet of **
 
 ## Why I built it
 
-As the only IT person on site, I needed to know *which* device went down *before* users called — and to tell a real outage apart from a single dropped packet. Generic ping tools either needed admin rights, flooded me with false alarms, or kept no history, while full monitoring suites such as PRTG, SolarWinds or Nagios were far more than a single-site team needed. PingMonitor solves those three problems in one small executable, tailored to my specific needs.
-
+As the only IT person on site, I needed to know *which* device went down *before* users called — and to tell a real outage apart from a single dropped packet. Generic ping tools either needed admin rights, flooded me with false alarms, or kept no history. PingMonitor solves those three problems in one small executable.
 
 ---
 
@@ -164,6 +163,11 @@ pyinstaller --noconsole --name PingMonitor main.py
 ```
 
 Runtime files (`inventario.csv`, `historial.db`, `credenciales.dat`, `telegram_config.json`) are read from the folder next to the executable.
+
+## Further reading
+
+- **[Design notes](docs/DESIGN.md)** — how the app was built, the decisions behind it and the bugs that shaped it.
+- **[Known limitations](docs/LIMITATIONS.md)** — what it cannot do yet, and how I would address it.
 
 ## Roadmap
 
